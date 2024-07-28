@@ -466,6 +466,45 @@ header nav a{
         padding-right: 3%;
     }
 }
+.blogs{
+     display: flex;
+    width: 20%;
+    height: 45vh;
+    margin-left: 3%;
+    box-shadow: 2px 2px 10px black ;
+}
+.blogsparent{
+    display: flex;
+   justify-content: center;
+}
+.blogsparent1{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 767px){
+    /* mobile */
+    .blogs{
+        width: 80%;
+        
+    }
+    .blogsparent{
+         display: flex;
+         flex-direction: column;
+          
+          gap: 10px;
+          margin-left: 10%;
+          
+        
+    }
+    .blogsparent1{
+        display: flex;
+        flex-direction: column;
+         gap: 10px;
+         margin-left: 10%;
+       
+        
+   }
+}
      </style>
 </head>
 <body>
@@ -490,7 +529,7 @@ header nav a{
                         HRX X-Drops 580G Bluetooth Headset  (Red, Blue, In the Ear) </div>
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
-                <div class="detail">
+                <div class="detail" id="detail1">
                     <div class="title">X-DROP 580G</div>
                     <div class="des">
                         <!-- lorem 50 -->
@@ -710,7 +749,7 @@ header nav a{
                         realme Buds Air 6 with 50dB ANC, 12.4mm Bass Driver, Hi-Res LHDC and 40 hours Playtime Bluetooth Headset  (Flame Silver, True Wireless)</div>
                     <button class="seeMore">SEE MORE &#8599</button>
                 </div>
-                <div class="detail">
+                <div class="detail" id="detail6">
                     <div class="title">realme</div>
                     <div class="des">
                         <!-- lorem 50 -->
@@ -749,7 +788,76 @@ header nav a{
             <button id="next">></button>
             <button id="back">See All  &#8599</button>
         </div>
+    </div> <br>
+    <div class="blogsparent">
+        <div class="blogs"  >
+            <div class="card" style="width: 18rem; text-align:center">
+                <img class="card-img-top" src="img1.png" alt="Card image cap" width="50%; text-align: center;" >
+                <div class="card-body">
+                  <h5 class="card-title">X-DROP BOX</h5>
+                  <p class="card-text" sty>HRX X-Drops 580G Bluetooth Headset  (Red, Blue, In the Ear).</p>
+                  <a href="#detail1" class="btn btn-primary">$6999.99</a>
+                </div>
+              </div>
+        </div>
+    
+        <div class="blogs"  >
+            <div class="card" style="width: 18rem; text-align:center">
+                <img class="card-img-top" src="img2.png" alt="Card image cap" width="45%">
+                <div class="card-body">
+                  <h5 class="card-title">OPPO</h5>
+                  <p class="card-text">OPPO 580G Bluetooth Headset  (Red, Blue, In the Ear).</p>
+                  <a href="#detail1" class="btn btn-primary">$9999.99</a>
+                </div>
+              </div>
+        </div>
+    
+        <div class="blogs"  >
+            <div class="card" style="width: 18rem; text-align:center">
+                <img class="card-img-top" src="img3.png" alt="Card image cap" width="50%">
+                <div class="card-body">
+                  <h5 class="card-title">ONE PLUS NORD</h5>
+                  <p class="card-text">ONE PLUS NORD Bluetooth Headset  (Red, Blue, In the Ear).</p>
+                  <a href="#detail1" class="btn btn-primary">$10999.59</a>
+                </div>
+              </div>
+        </div>
+    </div> <br>
+    <div class="blogsparent1">
+        <div class="blogs"  >
+            <div class="card" style="width: 18rem; text-align:center">
+                <img class="card-img-top" src="img4.png" alt="Card image cap" width="50%">
+                <div class="card-body">
+                  <h5 class="card-title">REDMI</h5>
+                  <p class="card-text">REDMI Buds Bluetooth Headset  (Red, Blue, In the Ear).</p>
+                  <a href="#detail1" class="btn btn-primary">$4999.29</a>
+                </div>
+              </div>
+        </div>
+    
+        <div class="blogs"  >
+            <div class="card" style="width: 18rem; text-align:center">
+                <img class="card-img-top" src="img5.png" alt="Card image cap" width="30%">
+                <div class="card-body">
+                  <h5 class="card-title">APPLE</h5>
+                  <p class="card-text">APPLE Bluetooth Headset  (Red, Blue, In the Ear).</p>
+                  <a href="#detail1" class="btn btn-primary">$20999.39</a>
+                </div>
+              </div>
+        </div>
+    
+        <div class="blogs"  >
+            <div class="card" style="width: 18rem; text-align:center">
+                <img class="card-img-top" src="img6.png" alt="Card image cap" width="40%">
+                <div class="card-body">
+                  <h5 class="card-title">realme</h5>
+                  <p class="card-text">realme Bluetooth Headset  (Red, Blue, In the Ear).</p>
+                  <a href="#detail" class="btn btn-primary">$3999.99</a>
+                </div>
+              </div>
+        </div>
     </div>
+    
     <section class="contact" id="contact">
     <div class="footerparent">
         <div class="footer">
